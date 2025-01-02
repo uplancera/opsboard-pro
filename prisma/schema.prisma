@@ -1,0 +1,211 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum UserRole {
+  OWNER
+  ADMIN
+  ANALYST
+  SUPPORT
+  BILLING
+}
+
+enum CustomerStatus {
+  ACTIVE
+  AT_RISK
+  CHURNED
+  TRIAL
+}
+
+enum PlanTier {
+  STARTER
+  GROWTH
+  SCALE
+  ENTERPRISE
+}
+
+enum InvoiceStatus {
+  DRAFT
+  OPEN
+  PAID
+  PAST_DUE
+  VOID
+}
+
+enum TicketPriority {
+  LOW
+  MEDIUM
+  HIGH
+  URGENT
+}
+
+enum TicketStatus {
+  OPEN
+  IN_PROGRESS
+  WAITING_ON_CUSTOMER
+  RESOLVED
+  CLOSED
+}
+
+model User {
+  id              String        @id @default(cuid())
+  name            String
+  email           String        @unique
+  passwordHash    String
+  avatarUrl       String?
+  title           String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+  memberships     Membership[]
+  assignedTickets Ticket[]      @relation("AssignedTickets")
+  createdTickets  Ticket[]      @relation("CreatedTickets")
+  auditLogs       AuditLog[]
+}
+
+model Organization {
+  id              String          @id @default(cuid())
+  name            String
+  slug            String          @unique
+  website         String?
+  logoUrl         String?
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+  memberships     Membership[]
+  customers       Customer[]
+  invoices        Invoice[]
+  tickets         Ticket[]
+  featureFlags    FeatureFlag[]
+  apiKeys         ApiKey[]
+  webhookEvents   WebhookEvent[]
+  auditLogs       AuditLog[]
+}
+
+model Membership {
+  id             String       @id @default(cuid())
+  userId         String
+  organizationId String
+  role           UserRole
+  createdAt      DateTime     @default(now())
+  user           User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, organizationId])
+}
+
+model Customer {
+  id               String         @id @default(cuid())
+  organizationId   String
+  name             String
+  company          String
+  email            String
+  phone            String?
+  status           CustomerStatus @default(ACTIVE)
+  plan             PlanTier       @default(GROWTH)
+  monthlySpend     Decimal        @db.Decimal(10, 2)
+  healthScore      Int
+  renewalDate      DateTime?
+  seats            Int            @default(5)
+  notes            String?
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  organization     Organization   @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  invoices         Invoice[]
+  tickets          Ticket[]
+
+  @@index([organizationId, status])
+}
+
+model Invoice {
+  id               String        @id @default(cuid())
+  organizationId   String
+  customerId       String
+  invoiceNumber    String
+  amount           Decimal       @db.Decimal(10, 2)
+  currency         String        @default("USD")
+  status           InvoiceStatus @default(OPEN)
+  dueDate          DateTime
+  paidAt           DateTime?
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+  organization     Organization  @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  customer         Customer      @relation(fields: [customerId], references: [id], onDelete: Cascade)
+
+  @@unique([organizationId, invoiceNumber])
+  @@index([organizationId, status])
+}
+
+model Ticket {
+  id               String         @id @default(cuid())
+  organizationId   String
+  customerId       String
+  createdById      String
+  assignedToId     String?
+  title            String
+  description      String
+  priority         TicketPriority @default(MEDIUM)
+  status           TicketStatus   @default(OPEN)
+  slaDueAt         DateTime?
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  organization     Organization   @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  customer         Customer       @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  createdBy        User           @relation("CreatedTickets", fields: [createdById], references: [id], onDelete: Cascade)
+  assignedTo       User?          @relation("AssignedTickets", fields: [assignedToId], references: [id], onDelete: SetNull)
+
+  @@index([organizationId, status, priority])
+}
+
+model AuditLog {
+  id               String       @id @default(cuid())
+  organizationId   String
+  actorUserId      String?
+  action           String
+  entityType       String
+  entityId         String
+  description      String
+  metadata         Json?
+  createdAt        DateTime     @default(now())
+  organization     Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  actor            User?        @relation(fields: [actorUserId], references: [id], onDelete: SetNull)
+
+  @@index([organizationId, createdAt])
+}
+
+model FeatureFlag {
+  id               String       @id @default(cuid())
+  organizationId   String
+  key              String
+  description      String?
+  enabled          Boolean      @default(false)
+  createdAt        DateTime     @default(now())
+  updatedAt        DateTime     @updatedAt
+  organization     Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+
+  @@unique([organizationId, key])
+}
+
+model ApiKey {
+  id               String       @id @default(cuid())
+  organizationId   String
+  label            String
+  keyPreview       String
+  createdAt        DateTime     @default(now())
+  lastUsedAt       DateTime?
+  organization     Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+}
+
+model WebhookEvent {
+  id               String       @id @default(cuid())
+  organizationId   String
+  eventType        String
+  destination      String
+  statusCode       Int?
+  deliveredAt      DateTime?
+  createdAt        DateTime     @default(now())
+  organization     Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+}

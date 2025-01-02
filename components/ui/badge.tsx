@@ -1,0 +1,9 @@
+const palette: Record<string, string> = {
+  ACTIVE: "bg-emerald-50 text-emerald-700 ring-1 ring-emerald-100", AT_RISK: "bg-amber-50 text-amber-700 ring-1 ring-amber-100", CHURNED: "bg-rose-50 text-rose-700 ring-1 ring-rose-100", TRIAL: "bg-sky-50 text-sky-700 ring-1 ring-sky-100",
+  PAID: "bg-emerald-50 text-emerald-700 ring-1 ring-emerald-100", OPEN: "bg-sky-50 text-sky-700 ring-1 ring-sky-100", PAST_DUE: "bg-rose-50 text-rose-700 ring-1 ring-rose-100", VOID: "bg-slate-100 text-slate-700 ring-1 ring-slate-200", DRAFT: "bg-slate-100 text-slate-700 ring-1 ring-slate-200",
+  RESOLVED: "bg-emerald-50 text-emerald-700 ring-1 ring-emerald-100", CLOSED: "bg-slate-100 text-slate-700 ring-1 ring-slate-200", IN_PROGRESS: "bg-sky-50 text-sky-700 ring-1 ring-sky-100", WAITING_ON_CUSTOMER: "bg-amber-50 text-amber-700 ring-1 ring-amber-100",
+  URGENT: "bg-rose-50 text-rose-700 ring-1 ring-rose-100", HIGH: "bg-amber-50 text-amber-700 ring-1 ring-amber-100", MEDIUM: "bg-sky-50 text-sky-700 ring-1 ring-sky-100", LOW: "bg-slate-100 text-slate-700 ring-1 ring-slate-200",
+  OWNER: "bg-sky-50 text-sky-700 ring-1 ring-sky-100", ADMIN: "bg-emerald-50 text-emerald-700 ring-1 ring-emerald-100", ANALYST: "bg-slate-100 text-slate-700 ring-1 ring-slate-200", SUPPORT: "bg-amber-50 text-amber-700 ring-1 ring-amber-100", BILLING: "bg-violet-50 text-violet-700 ring-1 ring-violet-100",
+  STARTER: "bg-slate-100 text-slate-700 ring-1 ring-slate-200", GROWTH: "bg-sky-50 text-sky-700 ring-1 ring-sky-100", SCALE: "bg-amber-50 text-amber-700 ring-1 ring-amber-100", ENTERPRISE: "bg-emerald-50 text-emerald-700 ring-1 ring-emerald-100",
+};
+export function Badge({ value }: { value: string }) { return <span className={`inline-flex w-fit items-center rounded-full px-2.5 py-1 text-xs font-semibold ${palette[value] ?? "bg-slate-100 text-slate-700 ring-1 ring-slate-200"}`}>{value.replaceAll("_", " ")}</span>; }
