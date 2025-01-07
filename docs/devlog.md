@@ -4,3 +4,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-01-04: Perf: tune global styling
 - 2025-01-05: Feat: add dashboard navigation pass
 - 2025-01-07: Chore: document auth flow updates
+- 2025-01-07: Style: polish tenant permissions

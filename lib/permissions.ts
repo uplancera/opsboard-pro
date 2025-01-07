@@ -4,3 +4,5 @@ export function hasMinimumRole(currentRole: string, requiredRole: RoleName) {
   const current = roleRank[currentRole as RoleName] ?? 0;
   return current >= roleRank[requiredRole];
 }
+
+// history:004 2025-01-07
