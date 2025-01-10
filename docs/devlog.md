@@ -6,3 +6,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-01-07: Chore: document auth flow updates
 - 2025-01-07: Style: polish tenant permissions
 - 2025-01-09: Feat: add api key management pass
+- 2025-01-10: Ux: refine auth flow
