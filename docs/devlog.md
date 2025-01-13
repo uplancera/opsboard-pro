@@ -8,3 +8,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-01-09: Feat: add api key management pass
 - 2025-01-10: Ux: refine auth flow
 - 2025-01-12: Perf: tune api key management
+- 2025-01-13: Chore: document auth flow updates
