@@ -10,3 +10,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-01-12: Perf: tune api key management
 - 2025-01-13: Chore: document auth flow updates
 - 2025-01-14: Fix: address edge cases in auth flow
+- 2025-01-15: Refactor: simplify invoice workflow
