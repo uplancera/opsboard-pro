@@ -12,3 +12,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-01-14: Fix: address edge cases in auth flow
 - 2025-01-15: Refactor: simplify invoice workflow
 - 2025-01-16: Feat: add dashboard navigation pass
+- 2025-01-18: Ux: refine dashboard navigation
