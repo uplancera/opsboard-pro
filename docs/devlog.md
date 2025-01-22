@@ -16,3 +16,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-01-18: Chore: document seed data coverage updates
 - 2025-01-20: Feat: add settings experience pass
 - 2025-01-21: Feat: add seed data coverage pass
+- 2025-01-22: Perf: tune AI insights page
