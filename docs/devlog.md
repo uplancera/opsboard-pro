@@ -18,3 +18,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-01-21: Feat: add seed data coverage pass
 - 2025-01-22: Perf: tune AI insights page
 - 2025-01-24: Refactor: simplify page headers
+- 2025-01-25: Refactor: simplify landing page copy
