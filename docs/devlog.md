@@ -20,3 +20,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-01-24: Refactor: simplify page headers
 - 2025-01-25: Refactor: simplify landing page copy
 - 2025-01-26: Perf: tune ticket queue
+- 2025-01-27: Refactor: simplify seed data coverage
