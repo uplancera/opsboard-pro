@@ -22,3 +22,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-01-26: Perf: tune ticket queue
 - 2025-01-27: Refactor: simplify seed data coverage
 - 2025-01-28: Perf: tune team workspace
+- 2025-01-29: Feat: add schema details pass
