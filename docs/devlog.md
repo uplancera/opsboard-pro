@@ -26,3 +26,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-01-30: Fix: address edge cases in layout spacing
 - 2025-02-01: Style: polish AI insights page
 - 2025-02-02: Ux: refine tenant permissions
+- 2025-02-03: Refactor: simplify team workspace
