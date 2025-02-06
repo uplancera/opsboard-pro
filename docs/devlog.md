@@ -28,3 +28,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-02-02: Ux: refine tenant permissions
 - 2025-02-03: Refactor: simplify team workspace
 - 2025-02-04: Chore: document AI insights page updates
+- 2025-02-06: Refactor: simplify tenant permissions
