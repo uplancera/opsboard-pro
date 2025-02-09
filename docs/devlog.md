@@ -31,3 +31,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-02-06: Refactor: simplify tenant permissions
 - 2025-02-07: Feat: add request helpers pass
 - 2025-02-08: Perf: tune webhook settings
+- 2025-02-09: Refactor: simplify landing page copy
