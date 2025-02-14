@@ -35,3 +35,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-02-10: Feat: add settings experience pass
 - 2025-02-12: Chore: document ticket queue updates
 - 2025-02-12: Fix: address edge cases in auth flow
+- 2025-02-14: Fix: address edge cases in metrics cards
