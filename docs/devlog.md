@@ -37,3 +37,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-02-12: Fix: address edge cases in auth flow
 - 2025-02-14: Fix: address edge cases in metrics cards
 - 2025-02-15: Feat: add AI insights page pass
+- 2025-02-16: Chore: document global styling updates
