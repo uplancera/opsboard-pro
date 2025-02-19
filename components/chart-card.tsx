@@ -9,3 +9,5 @@ export function RevenueChart({ data }: { data: { month: string; revenue: number 
 export function SupportChart({ data }: { data: { week: string; created: number; resolved: number }[] }) {
   return <Card className="h-full"><CardHeader><div><CardTitle>Support velocity</CardTitle><CardDescription>Created versus resolved tickets by week.</CardDescription></div></CardHeader><CardContent className="h-[300px]"><ResponsiveContainer width="100%" height="100%"><BarChart data={data}><CartesianGrid vertical={false} stroke="rgba(148,163,184,0.18)" /><XAxis dataKey="week" stroke="#64748b" tickLine={false} axisLine={false} /><YAxis stroke="#64748b" tickLine={false} axisLine={false} /><Tooltip contentStyle={{ borderRadius: 16, borderColor: "rgba(148,163,184,0.2)", boxShadow: "0 16px 40px rgba(15,23,42,0.08)" }} /><Legend /><Bar dataKey="created" fill="#2563eb" radius={[8,8,0,0]} /><Bar dataKey="resolved" fill="#10b981" radius={[8,8,0,0]} /></BarChart></ResponsiveContainer></CardContent></Card>;
 }
+
+// history:039 2025-02-19
