@@ -50,3 +50,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-03-01: Perf: tune README docs
 - 2025-03-01: Ux: refine page headers
 - 2025-03-03: Style: polish global styling
+- 2025-03-04: Perf: tune AI insights page
