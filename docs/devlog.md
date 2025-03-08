@@ -54,3 +54,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-03-05: Feat: add audit activity feed pass
 - 2025-03-06: Feat: add ticket queue pass
 - 2025-03-08: Feat: add auth flow pass
+- 2025-03-08: Chore: document invoice workflow updates
