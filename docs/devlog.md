@@ -58,3 +58,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-03-10: Feat: add schema details pass
 - 2025-03-11: Style: polish schema details
 - 2025-03-12: Refactor: simplify feature flags
+- 2025-03-14: Feat: add AI insights page pass
