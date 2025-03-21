@@ -64,3 +64,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-03-17: Refactor: simplify metrics cards
 - 2025-03-19: Chore: document ticket queue updates
 - 2025-03-19: Refactor: simplify shared card components
+- 2025-03-21: Feat: add dashboard navigation pass
