@@ -93,3 +93,4 @@ Prisma’s current upgrade guide shows Prisma 7 direct connections using `@prism
 See `docs/devlog.md` and `docs/history/` for a summarized development journal.
 
 <!-- history:047 2025-03-01 -->
+<!-- history:065 2025-03-22 -->
