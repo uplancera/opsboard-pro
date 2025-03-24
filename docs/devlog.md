@@ -67,3 +67,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-03-21: Feat: add dashboard navigation pass
 - 2025-03-22: Ux: refine README docs
 - 2025-03-23: Chore: document feature flags updates
+- 2025-03-24: Ux: refine settings experience
