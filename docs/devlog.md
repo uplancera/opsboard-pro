@@ -70,3 +70,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-03-24: Ux: refine settings experience
 - 2025-03-25: Ux: refine dashboard navigation
 - 2025-03-27: Fix: address edge cases in README docs
+- 2025-03-28: Ux: refine api key management
