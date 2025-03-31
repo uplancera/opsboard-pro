@@ -73,3 +73,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-03-28: Ux: refine api key management
 - 2025-03-29: Chore: document audit activity feed updates
 - 2025-03-31: Feat: add metrics cards pass
+- 2025-03-31: Refactor: simplify AI insights page
