@@ -75,3 +75,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-03-31: Feat: add metrics cards pass
 - 2025-03-31: Refactor: simplify AI insights page
 - 2025-04-02: Refactor: simplify schema details
+- 2025-04-03: Feat: add settings experience pass
