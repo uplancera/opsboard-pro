@@ -76,3 +76,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-03-31: Refactor: simplify AI insights page
 - 2025-04-02: Refactor: simplify schema details
 - 2025-04-03: Feat: add settings experience pass
+- 2025-04-04: Style: polish api key management
