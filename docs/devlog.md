@@ -78,3 +78,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-04-03: Feat: add settings experience pass
 - 2025-04-04: Style: polish api key management
 - 2025-04-05: Style: polish audit activity feed
+- 2025-04-07: Style: polish dashboard shell
