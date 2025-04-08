@@ -95,3 +95,4 @@ See `docs/devlog.md` and `docs/history/` for a summarized development journal.
 <!-- history:047 2025-03-01 -->
 <!-- history:065 2025-03-22 -->
 <!-- history:069 2025-03-27 -->
+<!-- history:079 2025-04-08 -->
