@@ -83,3 +83,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-04-09: Ux: refine chart presentation
 - 2025-04-10: Style: polish ticket queue
 - 2025-04-12: Ux: refine tenant permissions
+- 2025-04-13: Perf: tune global styling
