@@ -87,3 +87,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-04-13: Fix: address edge cases in ticket queue
 - 2025-04-15: Style: polish seed data coverage
 - 2025-04-17: Ux: refine schema details
+- 2025-04-18: Refactor: simplify request helpers
