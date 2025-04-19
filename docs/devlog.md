@@ -89,3 +89,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-04-17: Ux: refine schema details
 - 2025-04-18: Refactor: simplify request helpers
 - 2025-04-18: Fix: address edge cases in dashboard navigation
+- 2025-04-19: Perf: tune metrics cards
