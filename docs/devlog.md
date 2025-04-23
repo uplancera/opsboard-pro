@@ -92,3 +92,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-04-19: Perf: tune metrics cards
 - 2025-04-21: Fix: address edge cases in metrics cards
 - 2025-04-22: Feat: add audit activity feed pass
+- 2025-04-23: Chore: document webhook settings updates
