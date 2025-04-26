@@ -94,3 +94,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-04-22: Feat: add audit activity feed pass
 - 2025-04-23: Chore: document webhook settings updates
 - 2025-04-24: Refactor: simplify team workspace
+- 2025-04-26: Feat: add invoice workflow pass
