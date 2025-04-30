@@ -97,3 +97,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-04-26: Feat: add invoice workflow pass
 - 2025-04-27: Chore: document request helpers updates
 - 2025-04-28: Fix: address edge cases in shared card components
+- 2025-04-30: Chore: document shared card components updates
