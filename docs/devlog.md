@@ -102,3 +102,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-05-02: Ux: refine page headers
 - 2025-05-03: Style: polish invoice workflow
 - 2025-05-05: Feat: add dashboard navigation pass
+- 2025-05-05: Chore: document shared card components updates
