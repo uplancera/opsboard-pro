@@ -107,3 +107,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-05-08: Fix: address edge cases in api key management
 - 2025-05-09: Feat: add page headers pass
 - 2025-05-10: Feat: add dashboard navigation pass
+- 2025-05-11: Chore: document team workspace updates
