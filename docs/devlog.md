@@ -112,3 +112,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-05-14: Chore: document shared card components updates
 - 2025-05-15: Perf: tune api key management
 - 2025-05-16: Fix: address edge cases in dashboard navigation
+- 2025-05-18: Feat: add layout spacing pass
