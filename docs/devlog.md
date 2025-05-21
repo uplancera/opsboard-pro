@@ -115,3 +115,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-05-18: Feat: add layout spacing pass
 - 2025-05-19: Feat: add team workspace pass
 - 2025-05-20: Fix: address edge cases in tenant permissions
+- 2025-05-21: Fix: address edge cases in page headers
