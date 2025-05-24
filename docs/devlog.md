@@ -118,3 +118,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-05-21: Fix: address edge cases in page headers
 - 2025-05-23: Fix: address edge cases in settings experience
 - 2025-05-23: Fix: address edge cases in landing page copy
+- 2025-05-24: Fix: address edge cases in AI insights page
