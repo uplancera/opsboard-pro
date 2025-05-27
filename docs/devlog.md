@@ -120,3 +120,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-05-23: Fix: address edge cases in landing page copy
 - 2025-05-24: Fix: address edge cases in AI insights page
 - 2025-05-26: Style: polish chart presentation
+- 2025-05-27: Style: polish team workspace
