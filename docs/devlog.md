@@ -122,3 +122,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-05-26: Style: polish chart presentation
 - 2025-05-27: Style: polish team workspace
 - 2025-05-28: Feat: add team workspace pass
+- 2025-05-29: Chore: document team workspace updates
