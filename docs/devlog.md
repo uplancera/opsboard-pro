@@ -124,3 +124,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-05-28: Feat: add team workspace pass
 - 2025-05-29: Chore: document team workspace updates
 - 2025-05-31: Feat: add chart presentation pass
+- 2025-06-01: Chore: document shared card components updates
