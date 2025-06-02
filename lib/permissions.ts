@@ -11,3 +11,4 @@ export function hasMinimumRole(currentRole: string, requiredRole: RoleName) {
 // history:060 2025-03-16
 // history:082 2025-04-12
 // history:114 2025-05-20
+// history:125 2025-06-02
