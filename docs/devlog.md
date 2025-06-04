@@ -127,3 +127,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-06-01: Chore: document shared card components updates
 - 2025-06-02: Feat: add tenant permissions pass
 - 2025-06-03: Refactor: simplify tenant permissions
+- 2025-06-04: Fix: address edge cases in page headers
