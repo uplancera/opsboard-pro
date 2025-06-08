@@ -130,3 +130,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-06-04: Fix: address edge cases in page headers
 - 2025-06-06: Ux: refine layout spacing
 - 2025-06-07: Chore: document invoice workflow updates
+- 2025-06-08: Perf: tune AI insights page
