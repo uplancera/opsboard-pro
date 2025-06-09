@@ -131,3 +131,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-06-06: Ux: refine layout spacing
 - 2025-06-07: Chore: document invoice workflow updates
 - 2025-06-08: Perf: tune AI insights page
+- 2025-06-09: Feat: add feature flags pass
