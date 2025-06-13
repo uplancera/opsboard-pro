@@ -134,3 +134,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-06-09: Feat: add feature flags pass
 - 2025-06-10: Refactor: simplify tenant permissions
 - 2025-06-11: Ux: refine tenant permissions
+- 2025-06-13: Ux: refine schema details
