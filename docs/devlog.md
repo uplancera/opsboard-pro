@@ -138,3 +138,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-06-14: Ux: refine feature flags
 - 2025-06-15: Refactor: simplify dashboard shell
 - 2025-06-17: Chore: document feature flags updates
+- 2025-06-17: Perf: tune shared card components
