@@ -140,3 +140,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-06-17: Chore: document feature flags updates
 - 2025-06-17: Perf: tune shared card components
 - 2025-06-19: Refactor: simplify ticket queue
+- 2025-06-20: Refactor: simplify audit activity feed
