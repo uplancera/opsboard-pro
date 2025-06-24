@@ -144,3 +144,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-06-22: Ux: refine shared card components
 - 2025-06-22: Chore: document landing page copy updates
 - 2025-06-23: Ux: refine settings experience
+- 2025-06-24: Feat: add auth flow pass
