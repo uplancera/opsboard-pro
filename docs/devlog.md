@@ -146,3 +146,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-06-23: Ux: refine settings experience
 - 2025-06-24: Feat: add auth flow pass
 - 2025-06-26: Fix: address edge cases in dashboard navigation
+- 2025-06-28: Style: polish api key management
