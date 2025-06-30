@@ -148,3 +148,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-06-26: Fix: address edge cases in dashboard navigation
 - 2025-06-28: Style: polish api key management
 - 2025-06-28: Style: polish README docs
+- 2025-06-30: Chore: document global styling updates
