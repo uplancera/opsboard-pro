@@ -151,3 +151,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-06-30: Chore: document global styling updates
 - 2025-07-01: Fix: address edge cases in audit activity feed
 - 2025-07-02: Perf: tune chart presentation
+- 2025-07-04: Refactor: simplify global styling
