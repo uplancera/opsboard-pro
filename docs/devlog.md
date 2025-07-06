@@ -153,3 +153,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-07-02: Perf: tune chart presentation
 - 2025-07-04: Refactor: simplify global styling
 - 2025-07-04: Feat: add dashboard shell pass
+- 2025-07-06: Fix: address edge cases in layout spacing
