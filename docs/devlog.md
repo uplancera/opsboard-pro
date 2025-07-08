@@ -155,3 +155,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-07-04: Feat: add dashboard shell pass
 - 2025-07-06: Fix: address edge cases in layout spacing
 - 2025-07-06: Ux: refine request helpers
+- 2025-07-08: Refactor: simplify request helpers
