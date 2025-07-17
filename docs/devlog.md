@@ -162,3 +162,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-07-13: Refactor: simplify dashboard navigation
 - 2025-07-14: Fix: address edge cases in webhook settings
 - 2025-07-15: Refactor: simplify dashboard shell
+- 2025-07-17: Refactor: simplify AI insights page
