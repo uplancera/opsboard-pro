@@ -164,3 +164,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-07-15: Refactor: simplify dashboard shell
 - 2025-07-17: Refactor: simplify AI insights page
 - 2025-07-18: Fix: address edge cases in audit activity feed
+- 2025-07-19: Refactor: simplify tenant permissions
