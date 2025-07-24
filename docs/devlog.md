@@ -168,3 +168,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-07-20: Chore: document global styling updates
 - 2025-07-21: Refactor: simplify dashboard shell
 - 2025-07-22: Feat: add api key management pass
+- 2025-07-24: Fix: address edge cases in page headers
