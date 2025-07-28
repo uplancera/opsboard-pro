@@ -171,3 +171,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-07-24: Fix: address edge cases in page headers
 - 2025-07-25: Refactor: simplify page headers
 - 2025-07-26: Perf: tune webhook settings
+- 2025-07-28: Feat: add invoice workflow pass
