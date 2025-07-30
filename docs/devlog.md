@@ -173,3 +173,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-07-26: Perf: tune webhook settings
 - 2025-07-28: Feat: add invoice workflow pass
 - 2025-07-29: Perf: tune layout spacing
+- 2025-07-30: Ux: refine shared card components
