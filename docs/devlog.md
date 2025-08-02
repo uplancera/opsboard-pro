@@ -176,3 +176,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-07-30: Ux: refine shared card components
 - 2025-07-31: Ux: refine dashboard shell
 - 2025-08-01: Perf: tune chart presentation
+- 2025-08-02: Feat: add dashboard shell pass
