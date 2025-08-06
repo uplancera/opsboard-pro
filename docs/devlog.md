@@ -179,3 +179,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-08-02: Feat: add dashboard shell pass
 - 2025-08-03: Feat: add settings experience pass
 - 2025-08-05: Feat: add dashboard navigation pass
+- 2025-08-06: Chore: document README docs updates
