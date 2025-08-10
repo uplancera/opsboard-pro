@@ -182,3 +182,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-08-06: Chore: document README docs updates
 - 2025-08-07: Feat: add feature flags pass
 - 2025-08-08: Chore: document metrics cards updates
+- 2025-08-10: Chore: document request helpers updates
