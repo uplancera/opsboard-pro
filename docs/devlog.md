@@ -186,3 +186,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-08-10: Ux: refine feature flags
 - 2025-08-12: Perf: tune api key management
 - 2025-08-13: Perf: tune metrics cards
+- 2025-08-14: Feat: add global styling pass
