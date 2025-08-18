@@ -189,3 +189,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-08-14: Feat: add global styling pass
 - 2025-08-16: Ux: refine webhook settings
 - 2025-08-16: Perf: tune README docs
+- 2025-08-18: Fix: address edge cases in schema details
