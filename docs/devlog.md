@@ -190,3 +190,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-08-16: Ux: refine webhook settings
 - 2025-08-16: Perf: tune README docs
 - 2025-08-18: Fix: address edge cases in schema details
+- 2025-08-19: Perf: tune README docs
