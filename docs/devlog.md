@@ -193,3 +193,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-08-19: Perf: tune README docs
 - 2025-08-20: Fix: address edge cases in seed data coverage
 - 2025-08-21: Style: polish auth flow
+- 2025-08-23: Perf: tune customer views
