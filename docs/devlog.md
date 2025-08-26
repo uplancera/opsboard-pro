@@ -196,3 +196,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-08-23: Perf: tune customer views
 - 2025-08-24: Refactor: simplify AI insights page
 - 2025-08-25: Style: polish landing page copy
+- 2025-08-26: Fix: address edge cases in dashboard navigation
