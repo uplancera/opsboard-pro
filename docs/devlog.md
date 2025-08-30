@@ -199,3 +199,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-08-26: Fix: address edge cases in dashboard navigation
 - 2025-08-27: Feat: add AI insights page pass
 - 2025-08-29: Ux: refine tenant permissions
+- 2025-08-30: Style: polish feature flags
