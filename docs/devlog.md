@@ -202,3 +202,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-08-30: Style: polish feature flags
 - 2025-08-31: Chore: document tenant permissions updates
 - 2025-09-01: Chore: document metrics cards updates
+- 2025-09-02: Chore: document invoice workflow updates
