@@ -204,3 +204,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-09-01: Chore: document metrics cards updates
 - 2025-09-02: Chore: document invoice workflow updates
 - 2025-09-04: Feat: add feature flags pass
+- 2025-09-05: Style: polish AI insights page
