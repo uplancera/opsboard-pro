@@ -213,3 +213,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-09-12: Fix: address edge cases in customer views
 - 2025-09-13: Refactor: simplify feature flags
 - 2025-09-14: Ux: refine global styling
+- 2025-09-16: Style: polish settings experience
