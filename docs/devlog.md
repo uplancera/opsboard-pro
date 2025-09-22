@@ -218,3 +218,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-09-18: Perf: tune webhook settings
 - 2025-09-19: Style: polish feature flags
 - 2025-09-21: Ux: refine audit activity feed
+- 2025-09-22: Ux: refine dashboard shell
