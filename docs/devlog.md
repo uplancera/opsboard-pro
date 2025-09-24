@@ -220,3 +220,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-09-21: Ux: refine audit activity feed
 - 2025-09-22: Ux: refine dashboard shell
 - 2025-09-23: Chore: document dashboard navigation updates
+- 2025-09-24: Perf: tune auth flow
