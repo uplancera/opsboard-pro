@@ -222,3 +222,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-09-23: Chore: document dashboard navigation updates
 - 2025-09-24: Perf: tune auth flow
 - 2025-09-25: Ux: refine schema details
+- 2025-09-26: Style: polish webhook settings
