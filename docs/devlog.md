@@ -224,3 +224,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-09-25: Ux: refine schema details
 - 2025-09-26: Style: polish webhook settings
 - 2025-09-27: Fix: address edge cases in invoice workflow
+- 2025-09-29: Refactor: simplify team workspace
