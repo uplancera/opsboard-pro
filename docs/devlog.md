@@ -229,3 +229,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-10-02: Perf: tune global styling
 - 2025-10-02: Chore: document AI insights page updates
 - 2025-10-04: Perf: tune ticket queue
+- 2025-10-05: Chore: document audit activity feed updates
