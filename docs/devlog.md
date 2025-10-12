@@ -235,3 +235,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-10-09: Feat: add api key management pass
 - 2025-10-10: Feat: add dashboard navigation pass
 - 2025-10-11: Refactor: simplify settings experience
+- 2025-10-12: Perf: tune dashboard shell
