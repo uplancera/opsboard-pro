@@ -237,3 +237,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-10-11: Refactor: simplify settings experience
 - 2025-10-12: Perf: tune dashboard shell
 - 2025-10-13: Perf: tune layout spacing
+- 2025-10-15: Refactor: simplify global styling
