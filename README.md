@@ -100,3 +100,4 @@ See `docs/devlog.md` and `docs/history/` for a summarized development journal.
 <!-- history:179 2025-08-06 -->
 <!-- history:188 2025-08-16 -->
 <!-- history:190 2025-08-19 -->
+<!-- history:240 2025-10-18 -->
