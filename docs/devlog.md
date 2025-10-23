@@ -244,3 +244,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-10-19: Fix: address edge cases in feature flags
 - 2025-10-21: Style: polish README docs
 - 2025-10-22: Fix: address edge cases in dashboard shell
+- 2025-10-23: Ux: refine chart presentation
