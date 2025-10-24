@@ -245,3 +245,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-10-21: Style: polish README docs
 - 2025-10-22: Fix: address edge cases in dashboard shell
 - 2025-10-23: Ux: refine chart presentation
+- 2025-10-24: Feat: add AI insights page pass
