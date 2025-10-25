@@ -246,3 +246,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-10-22: Fix: address edge cases in dashboard shell
 - 2025-10-23: Ux: refine chart presentation
 - 2025-10-24: Feat: add AI insights page pass
+- 2025-10-25: Ux: refine shared card components
