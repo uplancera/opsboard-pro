@@ -251,3 +251,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-10-27: Fix: address edge cases in invoice workflow
 - 2025-10-29: Ux: refine customer views
 - 2025-10-31: Chore: document tenant permissions updates
+- 2025-10-31: Fix: address edge cases in invoice workflow
