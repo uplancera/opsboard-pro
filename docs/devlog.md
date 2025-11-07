@@ -256,3 +256,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-11-03: Refactor: simplify README docs
 - 2025-11-04: Perf: tune layout spacing
 - 2025-11-05: Refactor: simplify tenant permissions
+- 2025-11-07: Style: polish audit activity feed
