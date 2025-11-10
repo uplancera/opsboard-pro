@@ -104,3 +104,4 @@ See `docs/devlog.md` and `docs/history/` for a summarized development journal.
 <!-- history:242 2025-10-21 -->
 <!-- history:252 2025-11-02 -->
 <!-- history:253 2025-11-03 -->
+<!-- history:259 2025-11-10 -->
