@@ -260,3 +260,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-11-08: Feat: add schema details pass
 - 2025-11-08: Style: polish webhook settings
 - 2025-11-10: Ux: refine README docs
+- 2025-11-11: Fix: address edge cases in shared card components
