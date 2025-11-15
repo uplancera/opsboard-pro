@@ -263,3 +263,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-11-11: Fix: address edge cases in shared card components
 - 2025-11-13: Style: polish dashboard shell
 - 2025-11-14: Feat: add auth flow pass
+- 2025-11-15: Perf: tune request helpers
