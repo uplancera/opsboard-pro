@@ -268,3 +268,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-11-17: Style: polish api key management
 - 2025-11-18: Perf: tune team workspace
 - 2025-11-20: Style: polish request helpers
+- 2025-11-21: Perf: tune webhook settings
