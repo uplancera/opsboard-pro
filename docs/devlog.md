@@ -270,3 +270,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-11-20: Style: polish request helpers
 - 2025-11-21: Perf: tune webhook settings
 - 2025-11-22: Style: polish audit activity feed
+- 2025-11-23: Ux: refine page headers
