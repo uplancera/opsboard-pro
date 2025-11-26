@@ -272,3 +272,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-11-22: Style: polish audit activity feed
 - 2025-11-23: Ux: refine page headers
 - 2025-11-24: Fix: address edge cases in landing page copy
+- 2025-11-26: Chore: document customer views updates
