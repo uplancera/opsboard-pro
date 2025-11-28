@@ -274,3 +274,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-11-24: Fix: address edge cases in landing page copy
 - 2025-11-26: Chore: document customer views updates
 - 2025-11-27: Fix: address edge cases in ticket queue
+- 2025-11-28: Feat: add request helpers pass
