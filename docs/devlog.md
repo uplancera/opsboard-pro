@@ -276,3 +276,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-11-27: Fix: address edge cases in ticket queue
 - 2025-11-28: Feat: add request helpers pass
 - 2025-11-30: Feat: add global styling pass
+- 2025-11-30: Fix: address edge cases in schema details
