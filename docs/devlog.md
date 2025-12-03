@@ -278,3 +278,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-11-30: Feat: add global styling pass
 - 2025-11-30: Fix: address edge cases in schema details
 - 2025-12-02: Feat: add chart presentation pass
+- 2025-12-03: Perf: tune landing page copy
