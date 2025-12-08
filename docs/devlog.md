@@ -282,3 +282,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-12-04: Fix: address edge cases in tenant permissions
 - 2025-12-05: Perf: tune ticket queue
 - 2025-12-07: Refactor: simplify auth flow
+- 2025-12-08: Style: polish team workspace
