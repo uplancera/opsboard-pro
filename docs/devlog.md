@@ -285,3 +285,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-12-08: Style: polish team workspace
 - 2025-12-09: Feat: add dashboard shell pass
 - 2025-12-10: Style: polish settings experience
+- 2025-12-11: Fix: address edge cases in page headers
