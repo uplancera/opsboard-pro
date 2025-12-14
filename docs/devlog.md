@@ -287,3 +287,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-12-10: Style: polish settings experience
 - 2025-12-11: Fix: address edge cases in page headers
 - 2025-12-13: Ux: refine page headers
+- 2025-12-14: Feat: add tenant permissions pass
