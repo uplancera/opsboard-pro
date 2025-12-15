@@ -15,3 +15,4 @@ export default async function SettingsPage() {
 // history:213 2025-09-16
 // history:234 2025-10-11
 // history:284 2025-12-10
+// history:288 2025-12-15
