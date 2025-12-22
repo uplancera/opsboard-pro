@@ -294,3 +294,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-12-18: Style: polish page headers
 - 2025-12-19: Style: polish auth flow
 - 2025-12-20: Fix: address edge cases in feature flags
+- 2025-12-22: Refactor: simplify team workspace
