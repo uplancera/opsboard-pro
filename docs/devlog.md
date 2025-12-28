@@ -299,3 +299,4 @@ This file tracks high-level milestones used to shape a realistic commit history 
 - 2025-12-24: Refactor: simplify team workspace
 - 2025-12-26: Ux: refine metrics cards
 - 2025-12-27: Feat: add tenant permissions pass
+- 2025-12-28: Perf: tune AI insights page
