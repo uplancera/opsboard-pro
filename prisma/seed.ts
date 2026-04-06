@@ -53,15 +53,63 @@ async function main() {
   }
 
   const customers = [
-    ["Avery Brooks", "Northstar Health", "avery@northstarhealth.com", CustomerStatus.ACTIVE, PlanTier.ENTERPRISE, "8200.00", 91, 65],
-    ["Priya Desai", "Beacon Logistics", "priya@beaconlogistics.com", CustomerStatus.AT_RISK, PlanTier.SCALE, "4200.00", 58, 28],
-    ["Marcus Hill", "Lattice Commerce", "marcus@latticecommerce.com", CustomerStatus.TRIAL, PlanTier.GROWTH, "1200.00", 76, 12],
-    ["Sara Kim", "Summit Retail Group", "sara@summitretail.com", CustomerStatus.CHURNED, PlanTier.STARTER, "450.00", 22, 4],
-  ];
+    {
+      name: "Avery Brooks",
+      company: "Northstar Health",
+      email: "avery@northstarhealth.com",
+      status: CustomerStatus.ACTIVE,
+      plan: PlanTier.ENTERPRISE,
+      monthlySpend: "8200.00",
+      healthScore: 91,
+      seats: 65,
+    },
+    {
+      name: "Priya Desai",
+      company: "Beacon Logistics",
+      email: "priya@beaconlogistics.com",
+      status: CustomerStatus.AT_RISK,
+      plan: PlanTier.SCALE,
+      monthlySpend: "4200.00",
+      healthScore: 58,
+      seats: 28,
+    },
+    {
+      name: "Marcus Hill",
+      company: "Lattice Commerce",
+      email: "marcus@latticecommerce.com",
+      status: CustomerStatus.TRIAL,
+      plan: PlanTier.GROWTH,
+      monthlySpend: "1200.00",
+      healthScore: 76,
+      seats: 12,
+    },
+    {
+      name: "Sara Kim",
+      company: "Summit Retail Group",
+      email: "sara@summitretail.com",
+      status: CustomerStatus.CHURNED,
+      plan: PlanTier.STARTER,
+      monthlySpend: "450.00",
+      healthScore: 22,
+      seats: 4,
+    },
+  ] satisfies Array<{
+    name: string;
+    company: string;
+    email: string;
+    status: CustomerStatus;
+    plan: PlanTier;
+    monthlySpend: string;
+    healthScore: number;
+    seats: number;
+  }>;
 
-  for (const [name, company, email, status, plan, monthlySpend, healthScore, seats] of customers) {
+  for (const customer of customers) {
     await prisma.customer.create({
-      data: { organizationId: org.id, name, company, email, status, plan, monthlySpend, healthScore, seats },
+      data: {
+        organizationId: org.id,
+        ...customer,
+      },
     }).catch(() => undefined);
   }
 
