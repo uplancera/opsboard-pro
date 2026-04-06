@@ -18,14 +18,3 @@ export function MetricCard({ label, value, delta, icon }: { label: string; value
     </Card>
   );
 }
-
-// history:035 2025-02-14
-// history:061 2025-03-17
-// history:072 2025-03-31
-// history:089 2025-04-19
-// history:090 2025-04-21
-// history:181 2025-08-08
-// history:185 2025-08-13
-// history:201 2025-09-01
-// history:225 2025-09-30
-// history:297 2025-12-26

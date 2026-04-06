@@ -8,16 +8,3 @@ export default async function InvoicesPage() {
   const invoices = await getInvoices();
   return <DashboardShell pathname="/dashboard/invoices"><PageHeader title="Invoices" description="Billing surface with real account relationships, statuses, and due dates." /><Card><CardContent className="p-6"><table><thead><tr><th>Invoice</th><th>Customer</th><th>Status</th><th>Amount</th><th>Due</th><th>Paid</th></tr></thead><tbody>{invoices.map((invoice) => <tr key={invoice.id}><td className="font-medium text-slate-950">{invoice.invoiceNumber}</td><td>{invoice.customer.company}</td><td><Badge value={invoice.status} /></td><td>{currency(invoice.amount.toString())}</td><td>{shortDate(invoice.dueDate)}</td><td>{shortDate(invoice.paidAt)}</td></tr>)}</tbody></table></CardContent></Card></DashboardShell>;
 }
-
-// history:010 2025-01-15
-// history:044 2025-02-25
-// history:054 2025-03-08
-// history:094 2025-04-26
-// history:100 2025-05-03
-// history:129 2025-06-07
-// history:171 2025-07-28
-// history:202 2025-09-02
-// history:223 2025-09-27
-// history:239 2025-10-17
-// history:248 2025-10-27
-// history:251 2025-10-31

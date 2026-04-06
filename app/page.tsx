@@ -48,13 +48,3 @@ export default function HomePage() {
     </main>
   );
 }
-
-// history:018 2025-01-25
-// history:031 2025-02-09
-// history:059 2025-03-14
-// history:117 2025-05-23
-// history:142 2025-06-22
-// history:195 2025-08-25
-// history:206 2025-09-08
-// history:271 2025-11-24
-// history:278 2025-12-03

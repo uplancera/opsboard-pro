@@ -87,16 +87,3 @@ export function LoginForm() {
     </form>
   );
 }
-
-// history:003 2025-01-07
-// history:006 2025-01-10
-// history:008 2025-01-13
-// history:009 2025-01-14
-// history:034 2025-02-12
-// history:053 2025-03-08
-// history:144 2025-06-24
-// history:192 2025-08-21
-// history:220 2025-09-24
-// history:262 2025-11-14
-// history:281 2025-12-07
-// history:292 2025-12-19
